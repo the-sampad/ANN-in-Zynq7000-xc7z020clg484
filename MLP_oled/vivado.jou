@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sat Apr 27 03:24:43 2024
+# Process ID: 1976
+# Current directory: D:/Major_Project/Major_Final/MLP_oled
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8360 D:\Major_Project\Major_Final\MLP_oled\MLP_oled.xpr
+# Log file: D:/Major_Project/Major_Final/MLP_oled/vivado.log
+# Journal file: D:/Major_Project/Major_Final/MLP_oled\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Major_Project/Major_Final/MLP_oled/MLP_oled.xpr
+update_compile_order -fileset sources_1

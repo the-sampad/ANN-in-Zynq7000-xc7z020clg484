@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Apr 26 10:33:57 2024
+# Process ID: 7304
+# Current directory: D:/Major_Project/zynet_Project_incorporated_OLED/MLP_oled/MLP_oled.runs/charLib_synth_1
+# Command line: vivado.exe -log charLib.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source charLib.tcl
+# Log file: D:/Major_Project/zynet_Project_incorporated_OLED/MLP_oled/MLP_oled.runs/charLib_synth_1/charLib.vds
+# Journal file: D:/Major_Project/zynet_Project_incorporated_OLED/MLP_oled/MLP_oled.runs/charLib_synth_1\vivado.jou
+#-----------------------------------------------------------
+source charLib.tcl -notrace

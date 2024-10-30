@@ -1,0 +1,45 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Apr 26 10:20:21 2024
+# Process ID: 18120
+# Current directory: D:/Major_Project/Zedboard_OLED_2018/vivado_proj
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2584 D:\Major_Project\Zedboard_OLED_2018\vivado_proj\Zedboard-OLED.xpr
+# Log file: D:/Major_Project/Zedboard_OLED_2018/vivado_proj/vivado.log
+# Journal file: D:/Major_Project/Zedboard_OLED_2018/vivado_proj\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Major_Project/Zedboard_OLED_2018/vivado_proj/Zedboard-OLED.xpr
+INFO: [Project 1-313] Project file moved from 'D:/Major_Project/zynet_Projects_Advanced/Zedboard_OLED_2018/vivado_proj' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory 'D:/../repo', nor could it be found using path 'D:/repo'.
+WARNING: [filemgmt 56-2] IPUserFilesDir: Could not find the directory 'D:/Major_Project/Zedboard_OLED_2018/vivado_proj/Zedboard-OLED.ip_user_files', nor could it be found using path 'D:/Major_Project/zynet_Projects_Advanced/Zedboard_OLED_2018/vivado_proj/Zedboard-OLED.ip_user_files'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:repo'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 872.797 ; gain = 137.938
+update_compile_order -fileset sources_1
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Apr 26 11:26:53 2024...

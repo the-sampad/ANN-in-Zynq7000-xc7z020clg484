@@ -1,0 +1,123 @@
+/*
+
+Xilinx Vivado v2018.2 (64-bit) [Major: 2018, Minor: 2]
+SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+
+Process ID: 13864
+License: Customer
+
+Current time: 	Sun Apr 14 13:50:52 IST 2024
+Time zone: 	India Standard Time (Asia/Calcutta)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 301 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2018.2/tps/win64/jre
+Java executable location: 	C:/Xilinx/Vivado/2018.2/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	sampa
+User home directory: C:/Users/sampa
+User working directory: C:/Users/sampa/OneDrive/Desktop/SpatialFilter-master/ip
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2018.2
+RDI_DATADIR: C:/Xilinx/Vivado/2018.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2018.2/bin
+
+Vivado preferences file location: C:/Users/sampa/AppData/Roaming/Xilinx/Vivado/2018.2/vivado.xml
+Vivado preferences directory: C:/Users/sampa/AppData/Roaming/Xilinx/Vivado/2018.2/
+Vivado layouts directory: C:/Users/sampa/AppData/Roaming/Xilinx/Vivado/2018.2/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2018.2/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/sampa/OneDrive/Desktop/SpatialFilter-master/ip/vivado.log
+Vivado journal file location: 	C:/Users/sampa/OneDrive/Desktop/SpatialFilter-master/ip/vivado.jou
+Engine tmp dir: 	C:/Users/sampa/OneDrive/Desktop/SpatialFilter-master/ip/.Xil/Vivado-13864-JARVIS
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINXD_LICENSE_FILE: "C:\Users\sampa\OneDrive\Documents\vivado2018+IPs.lic"
+XILINX_DSP: C:/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2018.2
+XILINX_SDK: C:/Xilinx/SDK/2018.2
+XILINX_VIVADO: C:/Xilinx/Vivado/2018.2
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2018.2
+
+
+GUI allocated memory:	180 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 529 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 77 MB (+78245kb) [00:00:04]
+// [Engine Memory]: 529 MB (+402979kb) [00:00:04]
+// aL (ck): Older Project Version: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 529 MB. GUI used memory: 34 MB. Current time: 4/14/24 1:50:54 PM IST
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aL)
+// Opening Vivado Project: C:\Users\sampa\OneDrive\Desktop\SpatialFilter-master\ip\imageProcessing.xpr. Version: Vivado v2017.4 
+// bx (ck):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+dismissDialog("Older Project Version"); // aL (ck)
+// Tcl Message: open_project C:/Users/sampa/OneDrive/Desktop/SpatialFilter-master/ip/imageProcessing.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 619 MB (+66827kb) [00:00:15]
+// Tcl Message: open_project C:/Users/sampa/OneDrive/Desktop/SpatialFilter-master/ip/imageProcessing.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/VIPIN/Desktop/SpatialFilter-master/SpatialFilter-master/ip' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'. 
+// Tcl Message: INFO: [Project 1-230] Project 'imageProcessing.xpr' upgraded for this version of Vivado. 
+// [Engine Memory]: 667 MB (+17477kb) [00:00:16]
+// Project name: imageProcessing; location: C:/Users/sampa/OneDrive/Desktop/SpatialFilter-master/ip; part: xc7z020clg484-1
+dismissDialog("Open Project"); // bx (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// al (ck): Project Upgraded: addNotify
+// Elapsed time: 14 seconds
+selectButton(PAResourceQtoS.ReportIPStatusInfoDialog_IGNORE, "Ignore"); // a (al)
+dismissDialog("Project Upgraded"); // al (ck)
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IP-XACT]", 2); // B (D, ck)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IP-XACT]", 2); // B (D, ck)
+// Elapsed time: 15 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, imageProcessTop (imageProcessTop.v)]", 1); // B (D, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, imageProcessTop (imageProcessTop.v), OB : outputBuffer (outputBuffer.xci)]", 4); // B (D, ck)
+// A (ck): Show IP Hierarchy: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Show IP Hierarchy"); // A (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 40 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, imageProcessTop (imageProcessTop.v)]", 1); // B (D, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IP-XACT]", 2); // B (D, ck)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IP-XACT]", 2); // B (D, ck)
+// [GUI Memory]: 83 MB (+2466kb) [00:01:46]
+// [GUI Memory]: 88 MB (+663kb) [00:01:46]
+// [GUI Memory]: 93 MB (+571kb) [00:03:47]

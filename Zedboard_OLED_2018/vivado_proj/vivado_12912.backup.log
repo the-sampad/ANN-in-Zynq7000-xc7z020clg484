@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Apr 16 00:36:16 2024
+# Process ID: 12912
+# Current directory: D:/Major_Project/zynet_Projects_Advanced/Zedboard_OLED_2018/vivado_proj
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16244 D:\Major_Project\zynet_Projects_Advanced\Zedboard_OLED_2018\vivado_proj\Zedboard-OLED.xpr
+# Log file: D:/Major_Project/zynet_Projects_Advanced/Zedboard_OLED_2018/vivado_proj/vivado.log
+# Journal file: D:/Major_Project/zynet_Projects_Advanced/Zedboard_OLED_2018/vivado_proj\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Major_Project/zynet_Projects_Advanced/Zedboard_OLED_2018/vivado_proj/Zedboard-OLED.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/sampa/OneDrive/Desktop/Zedboard-OLED-2018.2-1/vivado_proj' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory 'D:/repo', nor could it be found using path 'C:/Users/sampa/repo'.
+WARNING: [filemgmt 56-2] IPUserFilesDir: Could not find the directory 'D:/Major_Project/zynet_Projects_Advanced/Zedboard_OLED_2018/vivado_proj/Zedboard-OLED.ip_user_files', nor could it be found using path 'C:/Users/sampa/OneDrive/Desktop/Zedboard-OLED-2018.2-1/vivado_proj/Zedboard-OLED.ip_user_files'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/repo'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 945.516 ; gain = 200.621
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 16 00:52:12 2024...

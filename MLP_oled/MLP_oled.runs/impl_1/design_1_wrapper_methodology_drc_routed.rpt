@@ -1,0 +1,277 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Fri Apr 26 13:17:32 2024
+| Host         : JARVIS running 64-bit major release  (build 9200)
+| Command      : report_methodology -file design_1_wrapper_methodology_drc_routed.rpt -pb design_1_wrapper_methodology_drc_routed.pb -rpx design_1_wrapper_methodology_drc_routed.rpx
+| Design       : design_1_wrapper
+| Device       : xc7z020clg484-1
+| Speed File   : -1
+| Design State : Routed
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 48
++-----------+----------+-------------------------------+------------+
+| Rule      | Severity | Description                   | Violations |
++-----------+----------+-------------------------------+------------+
+| LUTAR-1   | Warning  | LUT drives async reset alert  | 6          |
+| TIMING-18 | Warning  | Missing input or output delay | 18         |
+| TIMING-20 | Warning  | Non-clocked latch             | 24         |
++-----------+----------+-------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+LUTAR-1#1 Warning
+LUT drives async reset alert  
+LUT cell design_1_i/mlp_oled_0/inst/mFind/str3_reg[105]_i_2, with 2 or more inputs, drives asynchronous preset/clear pin(s) design_1_i/mlp_oled_0/inst/oled_top/str3_reg[81]/CLR, design_1_i/mlp_oled_0/inst/oled_top/str3_reg[105]/PRE. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#2 Warning
+LUT drives async reset alert  
+LUT cell design_1_i/mlp_oled_0/inst/mFind/str3_reg[106]_i_2, with 2 or more inputs, drives asynchronous preset/clear pin(s) design_1_i/mlp_oled_0/inst/oled_top/str3_reg[106]/CLR, design_1_i/mlp_oled_0/inst/oled_top/str3_reg[90]/CLR, design_1_i/mlp_oled_0/inst/oled_top/str3_reg[93]/CLR. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#3 Warning
+LUT drives async reset alert  
+LUT cell design_1_i/mlp_oled_0/inst/mFind/str3_reg[109]_i_2, with 2 or more inputs, drives asynchronous preset/clear pin(s) design_1_i/mlp_oled_0/inst/oled_top/str3_reg[109]/CLR. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#4 Warning
+LUT drives async reset alert  
+LUT cell design_1_i/mlp_oled_0/inst/mFind/str3_reg[116]_i_3, with 2 or more inputs, drives asynchronous preset/clear pin(s) design_1_i/mlp_oled_0/inst/oled_top/str3_reg[113]/CLR, design_1_i/mlp_oled_0/inst/oled_top/str3_reg[85]/CLR, design_1_i/mlp_oled_0/inst/oled_top/str3_reg[87]/CLR, design_1_i/mlp_oled_0/inst/oled_top/str3_reg[92]/CLR, design_1_i/mlp_oled_0/inst/oled_top/str3_reg[97]/CLR, design_1_i/mlp_oled_0/inst/oled_top/str3_reg[100]/PRE, design_1_i/mlp_oled_0/inst/oled_top/str3_reg[114]/PRE, design_1_i/mlp_oled_0/inst/oled_top/str3_reg[116]/PRE, design_1_i/mlp_oled_0/inst/oled_top/str3_reg[91]/PRE. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#5 Warning
+LUT drives async reset alert  
+LUT cell design_1_i/mlp_oled_0/inst/mFind/str3_reg[117]_i_3, with 2 or more inputs, drives asynchronous preset/clear pin(s) design_1_i/mlp_oled_0/inst/oled_top/str3_reg[101]/CLR, design_1_i/mlp_oled_0/inst/oled_top/str3_reg[107]/CLR, design_1_i/mlp_oled_0/inst/oled_top/str3_reg[117]/CLR, design_1_i/mlp_oled_0/inst/oled_top/str3_reg[84]/CLR, design_1_i/mlp_oled_0/inst/oled_top/str3_reg[108]/PRE, design_1_i/mlp_oled_0/inst/oled_top/str3_reg[115]/PRE. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#6 Warning
+LUT drives async reset alert  
+LUT cell design_1_i/mlp_oled_0/inst/mFind/str3_reg[99]_i_2, with 2 or more inputs, drives asynchronous preset/clear pin(s) design_1_i/mlp_oled_0/inst/oled_top/str3_reg[95]/PRE, design_1_i/mlp_oled_0/inst/oled_top/str3_reg[98]/PRE, design_1_i/mlp_oled_0/inst/oled_top/str3_reg[99]/PRE. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+TIMING-18#1 Warning
+Missing input or output delay  
+An input delay is missing on btnC_0 relative to clock(s) clk_fpga_0
+Related violations: <none>
+
+TIMING-18#2 Warning
+Missing input or output delay  
+An input delay is missing on btnD_0 relative to clock(s) clk_fpga_0
+Related violations: <none>
+
+TIMING-18#3 Warning
+Missing input or output delay  
+An input delay is missing on btnR_0 relative to clock(s) clk_fpga_0
+Related violations: <none>
+
+TIMING-18#4 Warning
+Missing input or output delay  
+An input delay is missing on btnU_0 relative to clock(s) clk_fpga_0
+Related violations: <none>
+
+TIMING-18#5 Warning
+Missing input or output delay  
+An output delay is missing on led_0[0] relative to clock(s) clk_fpga_0
+Related violations: <none>
+
+TIMING-18#6 Warning
+Missing input or output delay  
+An output delay is missing on led_0[1] relative to clock(s) clk_fpga_0
+Related violations: <none>
+
+TIMING-18#7 Warning
+Missing input or output delay  
+An output delay is missing on led_0[2] relative to clock(s) clk_fpga_0
+Related violations: <none>
+
+TIMING-18#8 Warning
+Missing input or output delay  
+An output delay is missing on led_0[3] relative to clock(s) clk_fpga_0
+Related violations: <none>
+
+TIMING-18#9 Warning
+Missing input or output delay  
+An output delay is missing on led_0[4] relative to clock(s) clk_fpga_0
+Related violations: <none>
+
+TIMING-18#10 Warning
+Missing input or output delay  
+An output delay is missing on led_0[5] relative to clock(s) clk_fpga_0
+Related violations: <none>
+
+TIMING-18#11 Warning
+Missing input or output delay  
+An output delay is missing on led_0[6] relative to clock(s) clk_fpga_0
+Related violations: <none>
+
+TIMING-18#12 Warning
+Missing input or output delay  
+An output delay is missing on led_0[7] relative to clock(s) clk_fpga_0
+Related violations: <none>
+
+TIMING-18#13 Warning
+Missing input or output delay  
+An output delay is missing on oled_dc_0 relative to clock(s) clk_fpga_0
+Related violations: <none>
+
+TIMING-18#14 Warning
+Missing input or output delay  
+An output delay is missing on oled_res_0 relative to clock(s) clk_fpga_0
+Related violations: <none>
+
+TIMING-18#15 Warning
+Missing input or output delay  
+An output delay is missing on oled_sclk_0 relative to clock(s) clk_fpga_0
+Related violations: <none>
+
+TIMING-18#16 Warning
+Missing input or output delay  
+An output delay is missing on oled_sdin_0 relative to clock(s) clk_fpga_0
+Related violations: <none>
+
+TIMING-18#17 Warning
+Missing input or output delay  
+An output delay is missing on oled_vbat_0 relative to clock(s) clk_fpga_0
+Related violations: <none>
+
+TIMING-18#18 Warning
+Missing input or output delay  
+An output delay is missing on oled_vdd_0 relative to clock(s) clk_fpga_0
+Related violations: <none>
+
+TIMING-20#1 Warning
+Non-clocked latch  
+The latch design_1_i/mlp_oled_0/inst/oled_top/str3_reg[100] cannot be properly analyzed as its control pin design_1_i/mlp_oled_0/inst/oled_top/str3_reg[100]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#2 Warning
+Non-clocked latch  
+The latch design_1_i/mlp_oled_0/inst/oled_top/str3_reg[101] cannot be properly analyzed as its control pin design_1_i/mlp_oled_0/inst/oled_top/str3_reg[101]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#3 Warning
+Non-clocked latch  
+The latch design_1_i/mlp_oled_0/inst/oled_top/str3_reg[105] cannot be properly analyzed as its control pin design_1_i/mlp_oled_0/inst/oled_top/str3_reg[105]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#4 Warning
+Non-clocked latch  
+The latch design_1_i/mlp_oled_0/inst/oled_top/str3_reg[106] cannot be properly analyzed as its control pin design_1_i/mlp_oled_0/inst/oled_top/str3_reg[106]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#5 Warning
+Non-clocked latch  
+The latch design_1_i/mlp_oled_0/inst/oled_top/str3_reg[107] cannot be properly analyzed as its control pin design_1_i/mlp_oled_0/inst/oled_top/str3_reg[107]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#6 Warning
+Non-clocked latch  
+The latch design_1_i/mlp_oled_0/inst/oled_top/str3_reg[108] cannot be properly analyzed as its control pin design_1_i/mlp_oled_0/inst/oled_top/str3_reg[108]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#7 Warning
+Non-clocked latch  
+The latch design_1_i/mlp_oled_0/inst/oled_top/str3_reg[109] cannot be properly analyzed as its control pin design_1_i/mlp_oled_0/inst/oled_top/str3_reg[109]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#8 Warning
+Non-clocked latch  
+The latch design_1_i/mlp_oled_0/inst/oled_top/str3_reg[113] cannot be properly analyzed as its control pin design_1_i/mlp_oled_0/inst/oled_top/str3_reg[113]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#9 Warning
+Non-clocked latch  
+The latch design_1_i/mlp_oled_0/inst/oled_top/str3_reg[114] cannot be properly analyzed as its control pin design_1_i/mlp_oled_0/inst/oled_top/str3_reg[114]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#10 Warning
+Non-clocked latch  
+The latch design_1_i/mlp_oled_0/inst/oled_top/str3_reg[115] cannot be properly analyzed as its control pin design_1_i/mlp_oled_0/inst/oled_top/str3_reg[115]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#11 Warning
+Non-clocked latch  
+The latch design_1_i/mlp_oled_0/inst/oled_top/str3_reg[116] cannot be properly analyzed as its control pin design_1_i/mlp_oled_0/inst/oled_top/str3_reg[116]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#12 Warning
+Non-clocked latch  
+The latch design_1_i/mlp_oled_0/inst/oled_top/str3_reg[117] cannot be properly analyzed as its control pin design_1_i/mlp_oled_0/inst/oled_top/str3_reg[117]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#13 Warning
+Non-clocked latch  
+The latch design_1_i/mlp_oled_0/inst/oled_top/str3_reg[81] cannot be properly analyzed as its control pin design_1_i/mlp_oled_0/inst/oled_top/str3_reg[81]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#14 Warning
+Non-clocked latch  
+The latch design_1_i/mlp_oled_0/inst/oled_top/str3_reg[84] cannot be properly analyzed as its control pin design_1_i/mlp_oled_0/inst/oled_top/str3_reg[84]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#15 Warning
+Non-clocked latch  
+The latch design_1_i/mlp_oled_0/inst/oled_top/str3_reg[85] cannot be properly analyzed as its control pin design_1_i/mlp_oled_0/inst/oled_top/str3_reg[85]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#16 Warning
+Non-clocked latch  
+The latch design_1_i/mlp_oled_0/inst/oled_top/str3_reg[87] cannot be properly analyzed as its control pin design_1_i/mlp_oled_0/inst/oled_top/str3_reg[87]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#17 Warning
+Non-clocked latch  
+The latch design_1_i/mlp_oled_0/inst/oled_top/str3_reg[90] cannot be properly analyzed as its control pin design_1_i/mlp_oled_0/inst/oled_top/str3_reg[90]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#18 Warning
+Non-clocked latch  
+The latch design_1_i/mlp_oled_0/inst/oled_top/str3_reg[91] cannot be properly analyzed as its control pin design_1_i/mlp_oled_0/inst/oled_top/str3_reg[91]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#19 Warning
+Non-clocked latch  
+The latch design_1_i/mlp_oled_0/inst/oled_top/str3_reg[92] cannot be properly analyzed as its control pin design_1_i/mlp_oled_0/inst/oled_top/str3_reg[92]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#20 Warning
+Non-clocked latch  
+The latch design_1_i/mlp_oled_0/inst/oled_top/str3_reg[93] cannot be properly analyzed as its control pin design_1_i/mlp_oled_0/inst/oled_top/str3_reg[93]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#21 Warning
+Non-clocked latch  
+The latch design_1_i/mlp_oled_0/inst/oled_top/str3_reg[95] cannot be properly analyzed as its control pin design_1_i/mlp_oled_0/inst/oled_top/str3_reg[95]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#22 Warning
+Non-clocked latch  
+The latch design_1_i/mlp_oled_0/inst/oled_top/str3_reg[97] cannot be properly analyzed as its control pin design_1_i/mlp_oled_0/inst/oled_top/str3_reg[97]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#23 Warning
+Non-clocked latch  
+The latch design_1_i/mlp_oled_0/inst/oled_top/str3_reg[98] cannot be properly analyzed as its control pin design_1_i/mlp_oled_0/inst/oled_top/str3_reg[98]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#24 Warning
+Non-clocked latch  
+The latch design_1_i/mlp_oled_0/inst/oled_top/str3_reg[99] cannot be properly analyzed as its control pin design_1_i/mlp_oled_0/inst/oled_top/str3_reg[99]/G is not reached by a timing clock
+Related violations: <none>
+
+
